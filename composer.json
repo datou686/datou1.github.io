@@ -1,0 +1,26 @@
+{
+    "name": "slim/slim-skeleton",
+    "description": "A Slim Framework skeleton application for rapid development",
+    "keywords": ["microframework","rest","router", "psr7"],
+    "homepage": "http://github.com/slimphp/Slim-Skeleton",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Josh Lockhart",
+            "email": "info@joshlockhart.com",
+            "homepage": "http://www.joshlockhart.com/"
+        }
+    ],
+    "require": {
+        "php": "7.2.x",
+        "slim/slim": "^3.1",
+        "slim/php-view": "^2.0",
+        "leancloud/leancloud-sdk": "^0.8.0"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    }
+}
